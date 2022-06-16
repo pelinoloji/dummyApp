@@ -2,16 +2,14 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import router from "../src/router";
 
-// createApp(App).mount('#app')
 
-window.mountDummyApp = () => {
-    console.log('mountDummyApp')
-  createApp(App).use(router).mount(`#dummy-app`);
+window.mountDummy = () => {
+  console.log('mountDummy')
+  createApp(App).use(router).mount(`#dummy-root`);
 };
 
-window.unmountDummyApp = () => {
-    console.log('unmountDummyApp')
-  const container = document.getElementById(`#dummy-app`);
+window.unmountDummy = () => {
+  const container = document.getElementById(`#dummy-root`);
 
   if (container) document.removeChild(container);
 };
