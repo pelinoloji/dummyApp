@@ -1,6 +1,8 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Child" />
+  <div>
+    <!-- <img alt="logo" src="@/assets/logo.png" /> -->
+    <HelloWorld msg="Child" />
+  </div>
 </template>
 
 <script>
@@ -13,4 +15,13 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+@import "@/assets/styles/swoop/_variables.scss";
+
+
+div {
+  background-color: $color-waikawa-gray;
+}
+</style>
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="380px" height="980px" viewBox="0 0 380 980" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>0. Pages/1. Sign in and Register/Images/Background/Left-bar</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="380" height="980"></rect>
+    </defs>
+    <g id="0.-Pages/1.-Sign-in-and-Register/Images/Background/Left-bar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#003E52" xlink:href="#path-1"></use>
+        <circle id="Oval" fill="#FFFFFF" opacity="0.0299999993" mask="url(#mask-2)" cx="20.5" cy="276.5" r="327.5"></circle>
+        <polygon id="Path" fill="#FFFFFF" opacity="0.0299999993" mask="url(#mask-2)" transform="translate(348.000000, 651.000000) rotate(-34.000000) translate(-348.000000, -651.000000) " points="863 536 -167 555.39759 659.821918 766"></polygon>
+    </g>
+</svg>

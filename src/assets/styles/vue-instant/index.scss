@@ -1,0 +1,116 @@
+@import '../swoop/variables';
+
+.sbx-searchbox {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  white-space: nowrap;
+  z-index: 0;
+}
+
+input[type='text'].sbx-searchbox__input,
+input[type='text'].sbx-searchbox__input-placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  appearance: none;
+}
+
+input[type='text'].sbx-searchbox__input-placeholder {
+  opacity: 0.5;
+  z-index: -1;
+}
+
+input[type='text'].sbx-searchbox__input {
+  position: static;
+  background: transparent !important;
+  &:disabled {
+    background: $bg-input-disabled !important;
+  }
+}
+
+.sbx-searchbox__spinner.show + input[type='text'].sbx-searchbox__input {
+  padding-right: 35px;
+}
+
+input[type='text'].sbx-searchbox__input::-webkit-search-decoration,
+input[type='text'].sbx-searchbox__input::-webkit-search-cancel-button,
+input[type='text'].sbx-searchbox__input::-webkit-search-results-button,
+input[type='text'].sbx-searchbox__input::-webkit-search-results-decoration {
+  display: none;
+}
+input[type='text'].sbx-searchbox__input-placeholder::placeholder {
+  color: rgba($color-main, 0.5);
+}
+
+.sbx-searchbox__suggestions {
+  position: absolute;
+  left: 0;
+  top: 110%;
+  margin: 0;
+  background-color: #fff;
+  border: 1px solid #d3dce6;
+  width: 100%;
+  padding: 6px 0;
+  z-index: 10;
+  border-radius: 2px;
+  max-height: 280px;
+  box-sizing: border-box;
+  overflow: auto;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.04), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+  margin-top: -3px;
+
+  li {
+    list-style: none;
+    line-height: 36px;
+    padding: 0 10px;
+    margin: 0;
+    cursor: pointer;
+    color: $color-elephant;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    &:hover {
+      background: $color-secondary;
+    }
+
+    &.sbx-searchbox__suggestion--highlighted {
+      background-color: $color-primary;
+      color: $color-white;
+    }
+  }
+}
+
+.sbx-searchbox__spinner {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  border: 2px solid $bg-body; /* bg-body */
+  border-top: 2px solid $color-primary; /* color primary */
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-top: -13px;
+  animation: spin 1s linear infinite;
+  z-index: -2;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+
+  &.show {
+    opacity: 1;
+    visibility: visible;
+    z-index: 2;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

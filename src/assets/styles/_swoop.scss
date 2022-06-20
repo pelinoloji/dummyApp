@@ -1,0 +1,26 @@
+@import 'swoop/variables';
+@import 'swoop/css-variables';
+@import 'swoop/functions';
+@import 'swoop/mixins';
+@import 'swoop/animations';
+@import 'swoop/layout';
+@import 'swoop/global';
+@import 'swoop/typography';
+@import 'swoop/features';
+@import 'swoop/cards';
+
+@import 'swoop/buttons.scss';
+@import 'swoop/tabs.scss';
+@import 'swoop/alerts';
+// @import '../../../app/product/assets/styles/product.scss'; // should put this into product app
+@import 'swoop/tables.scss';
+@import 'swoop/list-group.scss';
+@import 'swoop/description-lists.scss';
+@import 'swoop/breadcrumbs.scss';
+@import 'swoop/navigation.scss';
+@import 'swoop/forms.scss';
+@import 'swoop/form-page.scss';
+
+@import 'swoop/helpers'; // Should have the highest priority
+
+@import '~@tenant/assets/styles/theme'; // tenant specific themes

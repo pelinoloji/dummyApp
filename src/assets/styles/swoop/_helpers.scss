@@ -1,0 +1,64 @@
+@import './helpers/divider';
+@import './helpers/gradient';
+@import './helpers/icons';
+@import './helpers/image';
+@import './helpers/label';
+@import './helpers/layout';
+@import './helpers/loader';
+@import './helpers/select';
+@import './helpers/text';
+@import './helpers/message';
+@import './helpers/links';
+
+@include generate-spacers($spacer-step, $spacer-count);
+@include gen-props('text', 'color');
+@include gen-props('bg', 'background');
+
+.clearfix {
+  @include clearfix;
+}
+
+.relative {
+  position: relative;
+}
+
+.cursor {
+  &- {
+    &pointer {
+      cursor: pointer;
+    }
+    &move {
+      cursor: move;
+    }
+    &default {
+      cursor: default;
+    }
+  }
+}
+
+.bt {
+  border-top: 1px solid $default-border-color;
+}
+.bb {
+  border-bottom: 1px solid $default-border-color;
+}
+
+.bg-body {
+  background-color: $bg-body;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.hide-sm {
+  @media only screen and (max-width: $breakpoint-sm-max) {
+    display: none;
+  }
+}
+
+.show-sm {
+  @media only screen and (min-width: $breakpoint-sm-max) {
+    display: none;
+  }
+}

@@ -1,0 +1,11 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  @media only screen and (min-width: $breakpoint-xlg) {
+    max-width: 1200px;
+    width: auto;
+  }
+  @media only screen and (max-width: $breakpoint-sm-max) {
+    padding: 0 24px;
+  }
+}

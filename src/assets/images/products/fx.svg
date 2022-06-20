@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>SME / UI / Icons / FX</title>
+    <g id="SME-/-UI-/-Icons-/-FX" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#FFE4FE" cx="33" cy="33" r="33"></circle>
+        <path d="M25.1651,41 L25.1651,35.5316 L30.6433,35.5316 L30.6433,32.4936 L25.1651,32.4936 L25.1651,29.9456 L31.7213,29.9456 L31.7409,26.8292 L21.3529,26.8292 L21.3529,41 L25.1651,41 Z M36.7585,41 L39.3065,36.5508 L41.9133,41 L46.6761,41 L41.6781,33.2972 L45.9117,26.8292 L41.9133,26.8292 L39.7377,30.6708 L37.5425,26.8292 L32.8189,26.8292 L37.3269,33.846 L32.7013,41 L36.7585,41 Z" id="FX" fill="#BF29B9" fill-rule="nonzero"></path>
+    </g>
+</svg>

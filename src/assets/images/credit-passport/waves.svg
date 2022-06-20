@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1549px" height="1287px" viewBox="0 0 1549 1287" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Waves</title>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#1E507A" offset="0%"></stop>
+            <stop stop-color="#6CC0A4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="SWD-372-Additional-Credit-Passport-steps-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.701981317">
+        <g id="2.FP-2.b-CP-locked" transform="translate(0.000000, -57.000000)" fill-rule="nonzero">
+            <g id="Waves" transform="translate(0.000000, 57.000000)">
+                <path d="M190.68,1269.08 C16.8,1158.56 41.28,609.2 345.48,283.4 C530.52,85.4 861.72,-71.92 1158,35 C1457.88,142.64 1530.6,470.6 1533.48,483.56 C1608.36,815.48 1394.88,1151 1159.8,1232 C1006.08,1284.92 950.64,1192.04 641.04,1212.2 C345.84,1231.28 276.36,1323.44 190.68,1269.08 Z" id="Path" fill="url(#linearGradient-1)" opacity="0.861717587" transform="translate(815.567853, 643.217826) scale(-1, -1) translate(-815.567853, -643.217826) "></path>
+                <path d="M202.56,1227.76 C47.4,1197.88 -152.04,527.92 182.04,225.88 C490.2,-52.76 1005,206.08 1028.76,218.68 C1258.8,338.56 1508.28,598.12 1490.28,878.56 C1488.12,913.84 1479.84,1044.16 1384.44,1133.8 C1256.28,1254.4 1053.6,1223.8 968.28,1210.84 C702.24,1170.52 638.88,1022.92 470.76,1058.56 C309.48,1092.76 279.96,1242.88 202.56,1227.76 L202.56,1227.76 Z" id="Path" fill-opacity="0.608383926" fill="#76C3AA" opacity="0.248563959" transform="translate(745.726955, 663.024500) scale(1, -1) translate(-745.726955, -663.024500) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

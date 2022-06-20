@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="1020px" viewBox="0 0 1440 1020" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Background</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1440" height="1020"></rect>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Background">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" class="lavalamp-primary" transform="translate(720.000000, 510.000000) scale(-1, 1) translate(-720.000000, -510.000000) " xlink:href="#path-1"></use>
+            <polygon id="Path" class="lavalamp-secondary" mask="url(#mask-2)" transform="translate(525.802396, 960.004904) rotate(46.000000) translate(-525.802396, -960.004904) " points="705.802396 900.004904 345.802396 1020.0049 603.449455 1015.17732"></polygon>
+            <circle id="Oval" class="lavalamp-secondary" mask="url(#mask-2)" cx="1337.69713" cy="325.028409" r="327.5"></circle>
+            <circle id="Oval" class="lavalamp-secondary" mask="url(#mask-2)" cx="376.118186" cy="680" r="32"></circle>
+            <polygon id="Triangle" class="lavalamp-secondary" mask="url(#mask-2)" transform="translate(850.698822, 831.492711) rotate(-315.000000) translate(-850.698822, -831.492711) " points="850.698822 738.492711 943.698822 924.492711 757.698822 924.492711"></polygon>
+            <polygon id="Path" class="lavalamp-secondary" mask="url(#mask-2)" transform="translate(1905.538045, 689.737454) rotate(-34.000000) translate(-1905.538045, -689.737454) " points="2420.53805 574.737454 1390.53805 594.135045 2217.35996 804.737454"></polygon>
+            <circle id="Oval" class="lavalamp-secondary" mask="url(#mask-2)" cx="495.968329" cy="325.394298" r="6.4"></circle>
+            <polygon id="Triangle" class="lavalamp-secondary" mask="url(#mask-2)" transform="translate(552.471497, 278.314587) rotate(-315.000000) translate(-552.471497, -278.314587) " points="552.471497 259.714587 571.071497 296.914587 533.871497 296.914587"></polygon>
+            <rect id="Rectangle" class="lavalamp-secondary" mask="url(#mask-2)" transform="translate(10.306087, 377.916601) rotate(-336.000000) translate(-10.306087, -377.916601) " x="-58.1939126" y="309.416601" width="137" height="137"></rect>
+            <polygon id="Rectangle-Copy" class="lavalamp-secondary" mask="url(#mask-2)" transform="translate(1812.200824, 841.790783) rotate(-315.000000) translate(-1812.200824, -841.790783) " points="1796.20082 825.790783 1828.20082 825.790783 1828.20082 857.790783 1796.20082 857.790783"></polygon>
+        </g>
+    </g>
+</svg>

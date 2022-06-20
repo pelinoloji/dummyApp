@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1060px" height="980px" viewBox="0 0 1060 980" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>0. Pages/1. Sign in and Register/Images/Background/Sign-up-intro</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1060" height="980"></rect>
+        <filter id="filter-3">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="0.-Pages/1.-Sign-in-and-Register/Images/Background/Sign-up-intro" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#003E52" xlink:href="#path-1"></use>
+        <polygon id="Path" fill="#FFFFFF" opacity="0.0299999993" mask="url(#mask-2)" transform="translate(272.000000, 934.000000) rotate(46.000000) translate(-272.000000, -934.000000) " points="452 874 92 994 349.647059 989.172414"></polygon>
+        <circle id="Oval" fill="#FFFFFF" opacity="0.0299999993" mask="url(#mask-2)" cx="700.5" cy="276.5" r="327.5"></circle>
+        <circle id="Oval" fill="#FFFFFF" opacity="0.0299999993" mask="url(#mask-2)" cx="193" cy="644" r="32"></circle>
+        <polygon id="Triangle" fill="#FFFFFF" opacity="0.0299999993" mask="url(#mask-2)" transform="translate(459.000000, 802.000000) rotate(-315.000000) translate(-459.000000, -802.000000) " points="459 709 552 895 366 895"></polygon>
+        <polygon id="Path" fill="#FFFFFF" opacity="0.0299999993" mask="url(#mask-2)" transform="translate(1028.000000, 651.000000) rotate(-34.000000) translate(-1028.000000, -651.000000) " points="1543 536 513 555.39759 1339.82192 766"></polygon>
+        <g filter="url(#filter-3)" id="Group-6" opacity="0.0299999993">
+            <g mask="url(#mask-2)">
+                <g transform="translate(278.005357, 199.516504) rotate(-135.000000) translate(-278.005357, -199.516504) translate(235.005357, 167.016504)" fill="#FFFFFF" opacity="0.031364">
+                    <circle id="Oval" cx="6.4" cy="7" r="6.4"></circle>
+                    <polygon id="Triangle" transform="translate(59.600000, 38.600000) rotate(-315.000000) translate(-59.600000, -38.600000) " points="59.6 20 78.2 57.2 41 57.2"></polygon>
+                </g>
+            </g>
+        </g>
+        <rect id="Rectangle" fill="#FFFFFF" opacity="0.0299999993" mask="url(#mask-2)" transform="translate(-0.067496, 331.254834) rotate(-336.000000) translate(0.067496, -331.254834) " x="-68.5674965" y="262.754834" width="137" height="137"></rect>
+        <rect id="Rectangle-Copy" fill="#FFFFFF" opacity="0.0299999993" mask="url(#mask-2)" transform="translate(950.932504, 811.501046) rotate(-315.000000) translate(-950.932504, -811.501046) " x="934.932504" y="795.501046" width="32" height="32"></rect>
+    </g>
+</svg>

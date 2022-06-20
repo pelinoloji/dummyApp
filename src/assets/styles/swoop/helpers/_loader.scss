@@ -1,0 +1,27 @@
+.page-loader {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.85);
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  align-items: center;
+  will-change: opacity;
+  transition: background-color 0.5s linear;
+  -webkit-transition: background-color 0.5s linear;
+  z-index: 800;
+  .loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    text-align: center;
+    z-index: 1000;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    @media only screen and (max-width: $breakpoint-sm) {
+      left: 40%;
+    }
+  }
+}

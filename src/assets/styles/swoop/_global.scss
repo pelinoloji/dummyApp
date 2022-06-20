@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font: $font-size-base#{'/'}$line-height-base $font-primary;
+  font-weight: normal;
+  color: $color-main;
+  letter-spacing: -0.5px;
+  height: 100vh;
+  background: $color-white;
+  @media only screen and (max-width: $breakpoint-md-max) {
+    font-size: $font-size-base-mobile;
+    line-height: $line-height-base-mobile;
+  }
+}
+
+.profile-navigation {
+  max-width: 360px;
+  padding: 48px 36px;
+  position: fixed;
+  width: 100%;
+  background: $color-athens-gray;
+  height: 100vh;
+  top: 0;
+  overflow-y: auto;
+
+  h2 {
+    margin: 24px 0;
+  }
+}
+
+.form-container {
+  background-color: $color-white;
+  padding-left: 360px;
+  padding-bottom: 40px;
+  width: 100%;
+  .align-form {
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.form-profile {
+  flex: 1;
+}
+
+.inner-title {
+  font-size: $fs-lg-mobile;
+  line-height: $lh-lg-mobile;
+  padding: 34px 0 34px 0;
+}
+
+.out-form {
+  &[name='documents'] {
+    [type='submit'] {
+      display: none;
+    }
+  }
+}
+.disclaimer {
+  font-size: 12px;
+  text-align: center;
+  line-height: 18px;
+  padding-bottom: 42px;
+}
+
+.text-indent-hide {
+  text-indent: -9999px;
+  position: absolute;
+}
+
+.h1-primary {
+  color: $color-primary;
+}
+
+.hidden-sm {
+  display: block;
+  @media only screen and (max-width: $breakpoint-sm-max) {
+    display: none !important;
+  }
+}

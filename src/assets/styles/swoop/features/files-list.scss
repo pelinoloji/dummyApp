@@ -1,0 +1,67 @@
+.files-list {
+  flex-grow: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.file {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 12px;
+  + .file {
+    border-top: 1px solid $color-link-water;
+  }
+  .doc-icon {
+    color: $color-primary;
+    flex-shrink: 0;
+  }
+  .text {
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    .file-name {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: $color-elephant;
+      font-size: 14px;
+      line-height: 16px;
+      max-width: 95%;
+    }
+    .file-description {
+      color: $color-main;
+      font-size: 12px;
+      line-height: 14px;
+      > * {
+        display: inline;
+      }
+    }
+  }
+  .delete-btn {
+    $size: 24px;
+    display: flex;
+    align-items: center;
+    color: $color-bali-hai;
+    background-color: $color-link-water;
+    border-radius: 50%;
+    width: $size;
+    height: $size;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    .icon {
+      font-size: 16px;
+      margin: 0 auto;
+    }
+    &.loading {
+      color: $color-geyser;
+      background-color: $color-link-water-2;
+    }
+    .promise-btn__spinner-wrapper {
+      display: none;
+    }
+  }
+}

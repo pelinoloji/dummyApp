@@ -1,0 +1,34 @@
+.business-gradient {
+  background: $linear-business-gradient;
+  color: $color-white;
+  &.btn {
+    &:hover,
+    &:focus {
+      color: $color-white;
+      background: $linear-business-gradient-hover;
+    }
+    &:active,
+    &.router-link-exact-active,
+    &.active {
+      color: $color-white;
+      background: $linear-business-gradient-hover;
+    }
+  }
+}
+.advisor-gradient {
+  background: $linear-advisor-gradient;
+  color: $color-white;
+  &.btn {
+    &:hover,
+    &:focus {
+      color: $color-white;
+      background: $linear-advisor-gradient-hover;
+    }
+    &:active,
+    &.router-link-exact-active,
+    &.active {
+      color: $color-white;
+      background: $linear-advisor-gradient-hover;
+    }
+  }
+}

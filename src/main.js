@@ -4,7 +4,6 @@ import router from "../src/router";
 
 
 window.mountDummy = () => {
-  console.log('mountDummy')
   createApp(App).use(router).mount(`#dummy-root`);
 };
 

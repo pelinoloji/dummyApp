@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="38px" viewBox="0 0 60 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>CHC3</title>
+    <g id="Master-library" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M56,0 C58.209139,-4.05812251e-16 60,1.790861 60,4 L60,15 L48.999,15 L49,4 L41,4 L40.999,14.999 L30,15 L30,23 L40.999,23 L41,34 L49,34 L48.999,23 L60,23 L60,34 C60,36.209139 58.209139,38 56,38 L4,38 C1.790861,38 2.705415e-16,36.209139 0,34 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 L56,0 Z" id="CHC3" fill="#000000"></path>
+    </g>
+</svg>

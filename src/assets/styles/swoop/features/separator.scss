@@ -1,0 +1,23 @@
+.separator {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: $font-size-lg;
+  line-height: $line-height-lg;
+  font-weight: 500;
+  color: $color-secondary;
+  &:before,
+  &:after {
+    content: '';
+    border-top: 1px solid $color-mercury;
+    opacity: 1;
+  }
+  &:before {
+    width: 40px;
+    margin: 0 12px 0 0;
+  }
+  &:after {
+    flex-grow: 1;
+    margin: 0 0 0 12px;
+  }
+}

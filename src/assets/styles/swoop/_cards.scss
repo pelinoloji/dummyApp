@@ -1,0 +1,31 @@
+.card-item {
+  background-color: $color-white;
+  border-radius: $default-border-radius;
+  box-shadow: $default-box-shadow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  .highlight {
+    background-color: $color-link-water;
+    width: 184px;
+    height: 184px;
+    border-radius: 100px;
+    margin: 40px 0 20px;
+  }
+
+  .card-title {
+    max-width: 230px;
+    text-align: center;
+    font-weight: normal;
+  }
+
+  .card-footer {
+    border-top: 1px solid $color-link-water;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="91px" height="91px" viewBox="0 0 91 91" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>5-Equity </title>
+    <g id="Master-library" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="7.-Products" transform="translate(-313.000000, -559.000000)">
+            <g id="Equity" transform="translate(313.000000, 559.000000)">
+                <circle id="Oval" fill="#003E52" cx="45.5" cy="45.5" r="45.5"></circle>
+                <g id="3-Icons/Equity" transform="translate(22.750000, 22.750000)" fill="#FFFFFF">
+                    <path d="M45.1208333,45.5 L0.379166667,45.5 L0.379166667,0 L45.1208333,0 L45.1208333,45.5 Z M14.0502315,24.6612466 L4.10763889,24.6612466 L4.1061475,42.1707317 L14.0499829,42.1707317 L14.0502315,24.6612466 Z M27.7212963,14.796748 L17.7787037,14.796748 L17.7769638,42.1707317 L27.7207992,42.1707317 L27.7212963,14.796748 Z M41.3923611,4.93224932 L31.4497685,4.93224932 L31.44778,42.1707317 L41.3916154,42.1707317 L41.3923611,4.93224932 Z" id="Equity"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

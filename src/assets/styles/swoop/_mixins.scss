@@ -1,0 +1,94 @@
+@mixin gen-props($prefix, $property) {
+  @each $color-name, $color in $colors {
+    .#{$prefix}-#{$color-name} {
+      #{$property}: $color;
+    }
+  }
+}
+
+@mixin clearfix() {
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin input-placeholder {
+  &.placeholder {
+    @content;
+  }
+  &:-moz-placeholder {
+    @content;
+  }
+  &::-moz-placeholder {
+    @content;
+  }
+  &:-ms-input-placeholder {
+    @content;
+  }
+  &::-webkit-input-placeholder {
+    @content;
+  }
+}
+
+@mixin truncate($truncation-boundary) {
+  max-width: $truncation-boundary;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin hide-text($break: false, $indent: 200%, $align: left, $overflow: hidden) {
+  @if $break {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }
+  text: {
+    indent: $indent;
+    align: $align;
+  }
+  font-size: 0;
+  white-space: nowrap;
+  @if $overflow {
+    overflow: $overflow;
+  }
+}
+
+@mixin generate-spacers($step, $count) {
+  $spacer-sides: (top, bottom, left, right);
+  @for $i from 0 through $count {
+    @each $side in $spacer-sides {
+      $offset: $i * $step;
+      .m-#{str-slice($side, 0, 1)}-#{$offset} {
+        margin-#{$side}: #{$offset}px;
+      }
+
+      .p-#{str-slice($side, 0, 1)}-#{$offset} {
+        padding-#{$side}: #{$offset}px;
+      }
+    }
+  }
+}
+
+@mixin flex-display($direction, $align, $justify) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin allTableElements {
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+      > th,
+      > td {
+        @content;
+      }
+    }
+  }
+}

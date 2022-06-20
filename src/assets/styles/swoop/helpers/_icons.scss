@@ -1,0 +1,31 @@
+.ui.left.icon {
+  position: relative;
+  i {
+    position: absolute;
+    left: 12px;
+    top: 6px;
+  }
+  input {
+    padding-left: 26px;
+  }
+}
+.ui.right.icon {
+  position: relative;
+  i {
+    position: absolute;
+    right: 12px;
+    top: 6px;
+  }
+  input {
+    padding-right: 26px;
+  }
+}
+.ui.icon.small.message {
+  display: flex;
+  border: 1px solid #e8eff8;
+  border-radius: 1rem;
+  padding: 0.875rem;
+  i {
+    margin-right: 0.875rem;
+  }
+}

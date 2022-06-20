@@ -1,0 +1,87 @@
+$icon-size: 24px;
+$icon-radius: 50%;
+$icon-background: $color-link-water;
+$icon-background-checked: $color-iceberg;
+$icon-background-unchecked: $color-cinderella;
+$icon-checked: $color-puerto-rico;
+$icon-unchecked: $color-mandy;
+
+@mixin icon-base {
+  display: inline-block;
+  width: $icon-size;
+  height: $icon-size;
+  border-radius: $icon-radius;
+  text-align: center;
+  &::before {
+    position: relative;
+    margin: 0;
+    font-family: 'Material Icons';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: $icon-size;
+    font-style: normal;
+    vertical-align: middle;
+  }
+}
+
+.icon-status {
+  &-info {
+    @include icon-base();
+    background-color: $icon-background;
+    &::before {
+      content: 'i';
+      font-family: inherit;
+      color: $color-bali-hai;
+      font-size: 14px;
+    }
+  }
+  &-question {
+    @include icon-base();
+    background-color: $icon-background;
+    &::before {
+      content: '?';
+      font-family: inherit;
+      color: $color-bali-hai;
+      font-size: 14px;
+    }
+  }
+  &-checked {
+    @include icon-base();
+    background-color: $icon-background-checked;
+    &::before {
+      content: 'check';
+      color: $icon-checked;
+    }
+  }
+  &-unchecked {
+    @include icon-base();
+    background-color: $icon-background-unchecked;
+    &::before {
+      content: 'close';
+      color: $icon-unchecked;
+    }
+  }
+  &-warning {
+    @include icon-base();
+    background-color: $icon-background-unchecked;
+    &::before {
+      content: 'warning';
+      color: $icon-unchecked;
+    }
+  }
+}
+.icon-upload {
+  @include icon-base();
+  background-color: $icon-background;
+  &::before {
+    content: 'cloud_upload';
+  }
+  &-completed {
+    @include icon-base();
+    background-color: $icon-background-checked;
+    &::before {
+      content: 'cloud_done';
+      color: $icon-checked;
+    }
+  }
+}

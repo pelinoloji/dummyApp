@@ -1,0 +1,60 @@
+dl {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+dt {
+  color: $color-secondary;
+}
+dd {
+  margin-left: 0;
+  address {
+    all: unset;
+    display: inline;
+    font-style: normal;
+  }
+}
+
+.dl-horizontal {
+  dt {
+    float: left;
+    padding: 6px 2px 6px 0;
+  }
+  dd {
+    display: block;
+    clear: right;
+    padding: 6px 0 6px 1px;
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    &::after {
+      content: '\200b';
+    }
+  }
+}
+
+.dl-sm {
+  font-size: 12px;
+  line-height: 16px;
+  dt {
+    padding: 3px 2px 3px 0;
+  }
+  dd {
+    padding: 3px 0 3px 1px;
+  }
+}
+
+.dl-striped {
+  dt ~ dt,
+  dd ~ dd {
+    border-top: 1px solid $default-border-color;
+  }
+}
+
+.dl-justify {
+  dd {
+    text-align: right;
+  }
+}

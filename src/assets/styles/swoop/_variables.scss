@@ -1,0 +1,284 @@
+$font-primary: 'Public Sans', sans-serif;
+
+$container-offset: 15px;
+
+$font-size-base: 16px;
+$line-height-base: 24px;
+
+$font-size-sm: 12px;
+$line-height-sm: 16px;
+
+$font-size-lg: 18px;
+$line-height-lg: 26px;
+
+$font-size-base-mobile: 16px;
+$line-height-base-mobile: 24px;
+
+$font-size-sm-mobile: 14px;
+$line-height-sm-mobile: 20px;
+
+$font-size-lg-mobile: 20px;
+$line-height-lg-mobile: 28px;
+
+$darken-color-index: 20;
+
+// Font-size Swoop 2.0
+$fs-lg-mobile: 24px;
+$lh-lg-mobile: 36px;
+
+// Color palette to delete
+$color-pampas: #f9f8f6;
+$color-selago: #f2f7fd;
+$color-mercury: #e5e5e5;
+$color-rhino: #263c55;
+$color-cloud-burst: #1f3650;
+$color-black-squeeze: rgba(69, 181, 170, 0.08); // 0.08 opacity of #45B5AA | 0.5 opacity of #E3EBF8 | #F1F5FB
+$color-outer-space: #273238;
+$color-pickled-bluewood: #364d65;
+$color-catskill-white: #f1f9f9;
+
+// Color palette
+// Monochrome
+$color-elephant: #0f334a;
+$color-blue-bayoux: #546a7b;
+$color-geyser: #ced7de;
+$color-link-water: #e8eff8;
+$color-link-water-2: #f5f8fc;
+$color-dim-gray: #666666;
+$color-white-smoke: #ededed;
+$color-athens-gray: #f9fafb;
+$color-athens-gray-darker: #f5f6f8;
+$color-waikawa-gray: #5a718a;
+$color-white: #ffffff;
+$color-porcelain: #f4f7f7;
+$color-snow-concrete: #e6ebf2;
+$color-black: #000000;
+$color-black-haze: #e9eaea;
+$color-bali-hai: #8a9fae;
+$color-botticelli: #cbd5e3;
+$color-gallery: #f0f0f0;
+$color-dusty-gray: #979797;
+$color-iron: #d3d8dd;
+$color-loblolly: #c9d2d8;
+$color-advantageous: #217368;
+
+// Brand
+$color-sherpa-blue: #003e52;
+$color-daintree: #002b39;
+$color-green-pea: #164d45;
+$color-puerto-rico: #46c8b8; // gradient-success-start
+$color-ice-cold: #abf4ec;
+$color-lochinvar: #2e9c8e;
+$color-persian-green: #00a4a9;
+$color-pine-green: #006d71;
+$color-pastel-green: #6ae7a4; // gradient-success-end
+$color-sail: #b0d9f7; // gradient-info-end
+$color-matisse: #1b6798;
+
+// Primary
+$color-lightning-yellow: #f9cd28;
+$color-crusta: #f8783e;
+$color-mandy: #ea4d5c;
+$color-picton-blue: #51aaed; // gradient-info-start
+$color-royal-purple: #6e3e9b;
+
+// Primary dark
+$color-galliano: #d7ab06;
+$color-trinidad: #ea4f08;
+$color-alizarin-crimson: #dc2626;
+$color-curious-blue: #178be3;
+$color-jacarta: #4c2b6a;
+$color-matisse: #1b6798;
+$color-astral: #347aa8;
+
+// Pastel
+$color-iceberg: #d8f3f0;
+$color-pipi: #fef5d2;
+$color-watusi: #fee0d2;
+$color-cinderella: #fbdade;
+$color-tropical-blue: #d1e9fa;
+$color-snuff: #e6ddee;
+$color-wild-sand: #f6f6f6;
+$color-dew: #f4fffe;
+$color-provincial-pink: #fef2f2;
+
+// Pastel dark
+$color-powder-blue: #a9e5de;
+$color-sweet-corn: #fbe283;
+$color-rose-bud: #fcb797;
+$color-wewak: #f3969f;
+$color-jordy-blue: #99cef5;
+$color-lavender-gray: #c0abd3;
+
+// Natwest
+$color-alabaster: #f9f9f9;
+$color-selective-yellow: #ffb900;
+$color-jagger: #4a0c64;
+$color-blaze-orange: #f56207;
+$color-whisper: #f1f0f7;
+$transition-normal: 0.3s;
+
+$bg-body: $color-athens-gray;
+$color-allports: #0374a6;
+$color-ghostwhite: #fcfcfd;
+$color-blue-zodiac: #103052;
+$color-morning-glory: #96d3e1;
+
+$color-crusta: #f8783d;
+
+$color-primary: var(--color-primary);
+$color-primary-text-hover: var(--color-primary-text-hover);
+$color-primary-button: var(--color-primary-button);
+$color-primary-button-text: var(--color-primary-button-text);
+$color-primary-button-hover: var(--color-primary-button-hover);
+$color-secondary: var(--color-secondary);
+$color-secondary-text-hover: var(--color-secondary-text-hover);
+$color-secondary-button: var(--color-secondary-button);
+$color-secondary-button-text: var(--color-secondary-button-text);
+$color-secondary-button-hover: var(--color-secondary-button-hover);
+$color-tertiary: var(--color-tertiary);
+$color-tertiary-button: var(--color-tertiary-button);
+$color-tertiary-button-text: var(--color-tertiary-button-text);
+$color-tertiary-button-hover: var(--color-tertiary-button-hover);
+$color-inactive: var(--color-inactive);
+$color-general-headers: var(--color-general-headers);
+$color-signin-header: var(--color-signin-header);
+$color-signup-headers: var(--color-signup-headers);
+$color-select-goals-icons-fill: var(--color-select-goals-icons-fill);
+$color-select-goals-icons-background: var(--color-select-goals-icons-background);
+$color-select-goals-icons-hover: var(--color-select-goals-icons-hover);
+$color-select-goals-button: var(--color-select-goals-button);
+$color-form-labels: var(--color-form-labels);
+$color-form-tooltips-text: var(--color-form-tooltips-text);
+$color-form-tooltips: var(--color-form-tooltips);
+$color-matches-form-steps-active: var(--color-matches-form-steps-active);
+$color-matches-form-steps-inactive: var(--color-matches-form-steps-inactive);
+$color-sidebar-active: var(--color-sidebar-active);
+$color-sidebar-icon-inactive: var(--color-sidebar-icon-inactive);
+$color-sidebar-icon-inactive-text: var(--color-sidebar-icon-inactive-text);
+$color-mobile-sidebar-background: var(--color-mobile-sidebar-background);
+$color-lava-lamp-primary: var(--color-lava-lamp-primary);
+$color-lava-lamp-secondary: var(--color-lava-lamp-secondary);
+$color-footer-text: var(--color-footer-text);
+
+$color-main: var(--color-main);
+$color-main-hover: var(--color-main-hover);
+$color-link: var(--color-link);
+$color-link-hover: var(--color-link-hover);
+$color-welcome-link: var(--color-welcome-link);
+
+$linear-gradient-primary: linear-gradient(90deg, $color-primary 0%, $color-primary 120%);
+$linear-gradient-tertiary: linear-gradient(90deg, $color-tertiary 0%, $color-tertiary 180%);
+$linear-business-gradient: var(--linear-business-gradient);
+$linear-business-gradient-hover: var(--linear-business-gradient-hover);
+$linear-advisor-gradient: var(--linear-advisor-gradient);
+$linear-advisor-gradient-hover: var(--linear-advisor-gradient-hover);
+$mixed-brand-gradient: linear-gradient(90deg, #6cc0a4 0%, #1e507a 100%);
+$mixed-brand-gradient-hover: linear-gradient(90deg, #569983 0%, #184061 100%);
+
+$color-success: $color-pastel-green;
+$color-info: $color-curious-blue;
+$color-warning: $color-lightning-yellow;
+$color-danger: $color-trinidad;
+
+$colors: (
+  // Main colors
+    white: $color-white,
+  main: $color-main,
+  // Aliases for friendly-names
+    primary: $color-primary,
+  secondary: $color-secondary,
+  success: $color-success,
+  info: $color-info,
+  warning: $color-warning,
+  danger: $color-danger,
+  // Global color names
+);
+
+$default-border-radius: 12px;
+$default-border-color: $color-black-squeeze;
+$default-box-shadow: 0 0 1px 0 rgba(27, 103, 152, 0.15), 0 1px 3px 0 rgba(27, 103, 152, 0.15);
+$lift-box-shadow: 1px 1px 3px 0px $color-black-haze;
+$focus-box-shadow: 0px 0px 1px 1px $color-primary;
+$breakpoint-xxs: 280px;
+$breakpoint-xs: 320px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 1024px;
+$breakpoint-lg: 1366px;
+$breakpoint-xlg: 1440px;
+
+$breakpoint-xs-max: $breakpoint-sm - 1px;
+$breakpoint-sm-max: $breakpoint-md - 1px;
+$breakpoint-md-max: $breakpoint-lg - 1px;
+$breakpoint-lg-max: $breakpoint-xlg - 1px;
+
+// Cards
+$card-vertical-offset: 20px;
+$card-horizontal-offset: 20px;
+$card-vertical-offset-sm: 12px;
+$card-horizontal-offset-sm: 12px;
+
+// Buttons
+$btn-font-size: 16px;
+$btn-line-height: 28px;
+$btn-vertical-offset: 8px;
+$btn-horizontal-offset: 20px;
+$btn-bg-default: $color-selago;
+$btn-color-default: $color-primary;
+
+$btn-sizes: ('xs' 12px 16px -30 -200 normal) ('sm' 14px 20px 0 0 500) ('lg' 18px 26px 0 0 500);
+
+// Inputs
+$form-row-offset: 25px;
+$label-font-size: 14px;
+$label-line-height: 20px;
+$label-color: $color-form-labels;
+$bg-input: $color-white;
+$bg-input-disabled: $color-inactive;
+$input-font-size: 16px;
+$input-line-height: 24px;
+$input-border-color: var(--color-input-border);
+$input-vertical-offset: 5px;
+$input-horizontal-offset: 16px;
+$select-base-height: 36px;
+
+$spacer-step: 5;
+$spacer-count: 20;
+
+// Labels
+$label-types: ('default' $color-selago #fff) ('primary' $color-primary #fff) ('success' $color-success #fff) ('success-light' $color-black-squeeze $color-main)
+  // ('info' $color-info #fff)
+  ('warning' $color-warning #fff) ('danger' $color-danger #fff) ('geyser' $color-geyser $color-secondary) ('black-squeeze' $color-black-squeeze $color-secondary);
+
+// Alerts
+$alert-namespace: '.alert';
+$alert-types: ('success' $color-success #fff) // ('info' $color-info #fff)
+  ('warning' $color-warning #fff) ('danger' $color-danger #fff);
+
+// Tables
+$table-cell-padding: 19px 16px 17px;
+$table-bg: transparent;
+$table-bg-striped: $bg-body;
+$table-bg-hover: $color-catskill-white;
+$table-border-color: $color-black-squeeze;
+$table-head-bg-color: #fff;
+$table-head-color: $color-secondary;
+$table-bg-cell-color: $color-ghostwhite;
+
+// List Group
+$list-group-color: $color-secondary;
+$list-group-hover-color: $color-link-hover;
+$list-group-active-color: $color-primary;
+
+// Dropdown
+$dropdown-link-hover-color: $color-link-hover;
+$dropdown-link-hover-bg: $color-catskill-white;
+$dropdown-link-active-color: $color-link-hover; //TODO: Update this color
+$dropdown-link-active-bg: $bg-body; //TODO: Update this color
+
+// Breadcrumbs
+$breadcrumb-separator: '/';
+$breadcrumb-color: $color-primary;
+$breadcrumb-active-color: $color-secondary;
+
+// @import '~@tenant/assets/styles/theme'; // override variables
