@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.innitial-loader-container {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+
+.innitial-loader {
+  opacity: 1;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  max-width: 60px;
+  max-height: 60px;
+  animation: spin 800ms ease infinite;
+  transition: all 0.2s ease;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
