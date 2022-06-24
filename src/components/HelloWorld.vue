@@ -15,8 +15,5 @@ export default {
 </script>
 
 <style>
-#dummy-root {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  border: 5px solid blue;
-}
+
 </style>
