@@ -1,6 +1,6 @@
 <template>
   <div>
-    <HelloWorld msg="Child" />
+    <HelloWorld msg="Shared App (Child)" />
   </div>
 </template>
 

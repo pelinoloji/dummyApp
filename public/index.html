@@ -16,10 +16,10 @@
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="dummy-root"></div>
+    <div id="shared-root"></div>
     <script type="text/javascript">
       window.onload = () => {
-        window.mountDummy("dummy-root");
+        window.mountShared("shared-root");
       };
     </script>
     <!-- built files will be auto injected -->

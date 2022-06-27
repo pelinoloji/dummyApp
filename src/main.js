@@ -3,12 +3,12 @@ import App from "./App.vue";
 import router from "../src/router";
 
 
-window.mountDummy = () => {
-  createApp(App).use(router).mount(`#dummy-root`);
+window.mountShared = () => {
+  createApp(App).use(router).mount(`#shared-root`);
 };
 
-window.unmountDummy = () => {
-  const container = document.getElementById(`#dummy-root`);
+window.unmountShared = () => {
+  const container = document.getElementById(`#shared-root`);
 
   if (container) document.removeChild(container);
 };

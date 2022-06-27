@@ -3,8 +3,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 const routes = [
   {
     path: '/',
-    name: 'dummy-app',
-    component: () => import(/* webpackChunkName: "dummy-app" */ '../src/components/HelloWorld.vue')
+    name: 'shared-app',
+    component: () => import(/* webpackChunkName: "shared-app" */ '../src/components/HelloWorld.vue')
   },
   
 ]
