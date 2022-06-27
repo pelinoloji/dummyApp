@@ -1,33 +1,41 @@
 <template>
-  <img class="loader" src="../../public/img/funding/double-ring-spinner.svg" :style="style" alt="spinner" v-if="loader" />
-  <span v-else class="relative">
-    <div class="spinner" :style="style"></div>
-  </span>
+  <div id="spinner">
+    <img
+      class="loader"
+      src="../../public/img/funding/double-ring-spinner.svg"
+      :style="style"
+      alt="spinner"
+      v-if="loader"
+    />
+    <span v-else class="relative">
+      <div class="spinner" :style="style"></div>
+    </span>
+  </div>
 </template>
 <script>
 export default {
-  name: 'Spinner',
+  name: "Spinner",
   props: {
     color: {
       type: String,
-      default: '#2e9c8e'
+      default: "#2e9c8e",
     },
     size: {
       type: Number,
-      default: 18
+      default: 18,
     },
     width: {
       type: Number,
-      default: 1
+      default: 1,
     },
     duration: {
       type: String,
-      default: '1s'
+      default: "1s",
     },
     loader: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
   computed: {
     style() {
@@ -38,14 +46,14 @@ export default {
         width: `${this.size}px`,
         height: `${this.size}px`,
         borderWidth: `${this.width}px`,
-        animationDuration: this.duration
-      }
-    }
-  }
-}
+        animationDuration: this.duration,
+      };
+    },
+  },
+};
 </script>
 <style scoped lang='scss'>
-@import '../assets/styles/swoop/_variables.scss';
+@import "../assets/styles/swoop/_variables.scss";
 .loader {
   opacity: 1;
   display: inline-block;
